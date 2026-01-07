@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Rocca di Asolo",
+    "category": "Cultura",
+    "lat": 45.7892,
+    "lon": 11.9104,
+    "desc": "Belvedere storico con vista sul centro antico.",
+    "url": "https://example.com/rocca-asolo"
+  },
+  {
+    "id": 2,
+    "name": "Tempio Canoviano di Possagno",
+    "category": "Cultura",
+    "lat": 45.8557,
+    "lon": 11.8751,
+    "desc": "Complesso neoclassico legato ad Antonio Canova."
+  },
+  {
+    "id": 3,
+    "name": "Sacrario del Monte Grappa",
+    "category": "Storia",
+    "lat": 45.8451,
+    "lon": 11.7899,
+    "desc": "Memoriale della Grande Guerra e punto panoramico."
+  },
+  {
+    "id": 4,
+    "name": "Sentiero della Pace",
+    "category": "Percorsi",
+    "lat": 45.8301,
+    "lon": 11.8162,
+    "desc": "Tratto panoramico con tappe della memoria."
+  },
+  {
+    "id": 5,
+    "name": "Pianoro di Pianezze",
+    "category": "Natura",
+    "lat": 45.8586,
+    "lon": 11.7499,
+    "desc": "Altopiano con pascoli, boschi e viste aperte."
+  },
+  {
+    "id": 6,
+    "name": "Anello dei Colli Asolani",
+    "category": "Percorsi",
+    "lat": 45.8008,
+    "lon": 11.8985,
+    "desc": "Itinerario collinare tra borghi e vigneti."
+  },
+  {
+    "id": 7,
+    "name": "Parco del Muson",
+    "category": "Natura",
+    "lat": 45.7562,
+    "lon": 11.9352,
+    "desc": "Area verde lungo il corso d'acqua."
+  },
+  {
+    "id": 8,
+    "name": "Museo della Grande Guerra di Crespano",
+    "category": "Storia",
+    "lat": 45.8469,
+    "lon": 11.8387,
+    "desc": "Raccolta di testimonianze e reperti del fronte."
+  },
+  {
+    "id": 9,
+    "name": "Info Point Terre di Asolo",
+    "category": "Servizi",
+    "lat": 45.7899,
+    "lon": 11.9108,
+    "desc": "Accoglienza visitatori e materiali informativi.",
+    "url": "https://example.com/info-point"
+  },
+  {
+    "id": 10,
+    "name": "Area Sosta Monte Grappa",
+    "category": "Servizi",
+    "lat": 45.8505,
+    "lon": 11.7905,
+    "desc": "Punto sosta per la visita al massiccio."
+  },
+  {
+    "id": 11,
+    "name": "Belvedere del Tomba",
+    "category": "Natura",
+    "lat": 45.9021,
+    "lon": 11.8364,
+    "desc": "Punto panoramico tra boschi e prati."
+  },
+  {
+    "id": 12,
+    "name": "Villa Barbaro a Maser",
+    "category": "Cultura",
+    "lat": 45.8099,
+    "lon": 11.9762,
+    "desc": "Architettura palladiana nel territorio."
+  }
+]

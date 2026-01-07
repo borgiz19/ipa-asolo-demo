@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti | IPA Terre di Asolo e Monte Grappa</title>
+  <meta name="description" content="Contatti del progetto IPA Terre di Asolo e Monte Grappa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-contatti">
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Principale">
+      <a class="brand" href="index.html">
+        <img src="images/montegrappa.png" alt="Terre di Asolo e Monte Grappa" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-title">IPA Terre di Asolo</span>
+          <span class="brand-subtitle">e Monte Grappa</span>
+        </span>
+      </a>
+      <div class="nav-actions">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="territorio.html">Territorio</a></li>
+          <li><a href="mappa.html">Mappa</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contatti.html" aria-current="page">Contatti</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="mappa.html">Apri la mappa</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-page hero-small">
+      <div class="hero-media">
+        <img src="images/hero-contatti.svg" alt="" aria-hidden="true">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Contatti</p>
+        <h1 class="hero-title">Parliamo del progetto</h1>
+        <p class="hero-lead">Per informazioni su eventi, percorsi e iniziative territoriali contattaci.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <article class="card contact-card">
+          <figure class="contact-media">
+            <img src="images/hero-contatti.svg" alt="Panorama del territorio">
+          </figure>
+          <div class="contact-body">
+            <h2>Segreteria progetto</h2>
+            <p>Via delle Colline 12, 31011 Asolo (TV)</p>
+            <ul class="contact-list">
+              <li><span class="contact-label">Email</span><a href="mailto:info@terrediasolo.it">info@terrediasolo.it</a></li>
+              <li><span class="contact-label">Telefono</span><a href="tel:+390423000000">+39 0423 000000</a></li>
+              <li><span class="contact-label">Orari</span><span>Lun-Ven 09:00-17:30</span></li>
+            </ul>
+            <p class="note">Rispondiamo entro 2 giorni lavorativi.</p>
+          </div>
+        </article>
+
+        <form id="contactForm" class="card form" novalidate>
+          <h2>Invia un messaggio</h2>
+          <div class="form-row">
+            <label for="name">Nome e cognome</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Messaggio</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Invia messaggio</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-title">IPA Terre di Asolo e Monte Grappa</p>
+        <p>Scrivici per collaborazioni e proposte.</p>
+      </div>
+      <div>
+        <p class="footer-title">Link rapidi</p>
+        <a href="territorio.html">Territorio</a>
+        <a href="mappa.html">Mappa</a>
+        <a href="news.html">News</a>
+      </div>
+      <div>
+        <p class="footer-title">Contatti</p>
+        <p>Email: <a href="mailto:info@terrediasolo.it">info@terrediasolo.it</a></p>
+        <p>Tel: +39 0423 000000</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
