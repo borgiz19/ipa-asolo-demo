@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Sentieri panoramici">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#CFE2F2"/>
+      <stop offset="1" stop-color="#F2F6FA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="880" cy="170" r="90" fill="#F2E0B5"/>
+  <path d="M0 520 L220 360 L480 540 L720 400 L980 540 L1200 420 L1200 800 L0 800 Z" fill="#B8CDBF"/>
+  <path d="M0 620 L200 470 L480 640 L760 500 L1020 620 L1200 520 L1200 800 L0 800 Z" fill="#7D9B8C"/>
+  <path d="M120 700 C260 620 420 600 580 540" fill="none" stroke="#F1EDE5" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+</svg>
